@@ -1,0 +1,36 @@
+{
+  "name": "playwright-duration",
+  "version": "1.0.0",
+  "description": "Override playwright's duration within a test. Better performance accuracy when wanting to measure timing for only part of a test.",
+  "module": "true",
+  "main": "dist/duration.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnv-opensource/playwright-duration.git"
+  },
+  "keywords": [
+    "playwright",
+    "duration",
+    "override",
+    "micro",
+    "lib"
+  ],
+  "author": "DNV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnv-opensource/playwright-duration/issues"
+  },
+  "homepage": "https://github.com/dnv-opensource/playwright-duration#readme",
+  "peerDependencies": {
+    "@playwright/test": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
