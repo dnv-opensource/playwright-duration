@@ -5,7 +5,7 @@ Useful when measuring performance for single user workflow tests.
 
 # Installation
 ``` sh
-npm install --save-dev playwright-duration
+npm install --save-dev @dnvgl/playwright-duration
 ```
 
 # Usage
@@ -14,7 +14,7 @@ given a playwright test, import and wrap the `duration` function around the code
 Example:
 ``` ts
 import { test, expect } from '@playwright/test';
-import { duration } from 'playwright-duration';
+import { duration } from '@dnvgl/playwright-duration';
 
 test('get started link', async ({ page }, testInfo) => {
   //test setup

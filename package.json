@@ -1,5 +1,5 @@
 {
-  "name": "playwright-duration",
+  "name": "@dnvgl/playwright-duration",
   "version": "1.0.0",
   "description": "Override playwright's duration within a test. Better performance accuracy when wanting to measure timing for only part of a test.",
   "module": "true",
